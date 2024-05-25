@@ -61,7 +61,7 @@ let githubUsername, githubRepo, botUsername;
   ).catch(exitError);
 
   botUsername = getBot.data.result.username;
-  const url = `https://kskavin3.github.io/twa-sticker-purchase-app/`;
+  const url = `https://twa-stickers-app.netlify.app/`;
 
   console.log(`\n\nSetting bot ${botUsername} webapp url to ${url}`);
 
